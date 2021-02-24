@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D608EC492267A0BE00F66E24 /* ChartDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608EC482267A0BE00F66E24 /* ChartDetailViewController.swift */; };
+		D61B6E592268F96E00B7DABA /* SimilarArtistsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61B6E582268F96E00B7DABA /* SimilarArtistsTableViewCell.swift */; };
+		D61B6E5B22690C1200B7DABA /* AboutAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61B6E5A22690C1200B7DABA /* AboutAppViewController.swift */; };
+		D61B6E5D22690E1D00B7DABA /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61B6E5C22690E1D00B7DABA /* AboutAuthorViewController.swift */; };
+		D61B6E5F22690F2800B7DABA /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = D61B6E5E22690F2800B7DABA /* index.html */; };
+		D61B6E6222690F3500B7DABA /* normalize.css in Resources */ = {isa = PBXBuildFile; fileRef = D61B6E6022690F3400B7DABA /* normalize.css */; };
+		D61B6E6322690F3500B7DABA /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = D61B6E6122690F3500B7DABA /* main.css */; };
+		D61B6E6522690F3C00B7DABA /* profile_picA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D61B6E6422690F3C00B7DABA /* profile_picA.jpg */; };
+		D61B6E6722690F7500B7DABA /* MyWWW in Resources */ = {isa = PBXBuildFile; fileRef = D61B6E6622690F7500B7DABA /* MyWWW */; };
+		D627A42A226117BD00A52AC8 /* ChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627A429226117BD00A52AC8 /* ChartTableViewCell.swift */; };
+		D627A42C2261221200A52AC8 /* ChartsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627A42B2261221200A52AC8 /* ChartsTableViewController.swift */; };
 		D62EBFE1225CFA040025807A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62EBFE0225CFA040025807A /* AppDelegate.swift */; };
-		D62EBFE3225CFA040025807A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62EBFE2225CFA040025807A /* ViewController.swift */; };
 		D62EBFE6225CFA040025807A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62EBFE4225CFA040025807A /* Main.storyboard */; };
 		D62EBFE8225CFA060025807A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62EBFE7225CFA060025807A /* Assets.xcassets */; };
 		D62EBFEB225CFA060025807A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62EBFE9225CFA060025807A /* LaunchScreen.storyboard */; };
 		D62EBFF6225CFA060025807A /* ZochowskiLastFMChartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62EBFF5225CFA060025807A /* ZochowskiLastFMChartsTests.swift */; };
 		D62EC001225CFA060025807A /* ZochowskiLastFMChartsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62EC000225CFA060025807A /* ZochowskiLastFMChartsUITests.swift */; };
+		D6D1A0792268E43700C26E06 /* PlaySongWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1A0782268E43700C26E06 /* PlaySongWebViewController.swift */; };
+		D6D1A07B2268E45E00C26E06 /* ArtistProfileWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1A07A2268E45E00C26E06 /* ArtistProfileWebViewController.swift */; };
+		D6D1A07D2268E5AB00C26E06 /* SimilarArtistsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1A07C2268E5AB00C26E06 /* SimilarArtistsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +47,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D608EC482267A0BE00F66E24 /* ChartDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDetailViewController.swift; sourceTree = "<group>"; };
+		D61B6E582268F96E00B7DABA /* SimilarArtistsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarArtistsTableViewCell.swift; sourceTree = "<group>"; };
+		D61B6E5A22690C1200B7DABA /* AboutAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppViewController.swift; sourceTree = "<group>"; };
+		D61B6E5C22690E1D00B7DABA /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
+		D61B6E5E22690F2800B7DABA /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ZochowskiLastFMCharts/MyWWW/index.html; sourceTree = "<group>"; };
+		D61B6E6022690F3400B7DABA /* normalize.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = normalize.css; path = ZochowskiLastFMCharts/MyWWW/css/normalize.css; sourceTree = "<group>"; };
+		D61B6E6122690F3500B7DABA /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = main.css; path = ZochowskiLastFMCharts/MyWWW/css/main.css; sourceTree = "<group>"; };
+		D61B6E6422690F3C00B7DABA /* profile_picA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = profile_picA.jpg; path = ZochowskiLastFMCharts/MyWWW/images/profile_picA.jpg; sourceTree = "<group>"; };
+		D61B6E6622690F7500B7DABA /* MyWWW */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MyWWW; path = ZochowskiLastFMCharts/MyWWW; sourceTree = "<group>"; };
+		D627A429226117BD00A52AC8 /* ChartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTableViewCell.swift; sourceTree = "<group>"; };
+		D627A42B2261221200A52AC8 /* ChartsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsTableViewController.swift; sourceTree = "<group>"; };
 		D62EBFDD225CFA040025807A /* ZochowskiLastFMCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZochowskiLastFMCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62EBFE0225CFA040025807A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D62EBFE2225CFA040025807A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D62EBFE5225CFA040025807A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D62EBFE7225CFA060025807A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D62EBFEA225CFA060025807A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +70,9 @@
 		D62EBFFC225CFA060025807A /* ZochowskiLastFMChartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZochowskiLastFMChartsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62EC000225CFA060025807A /* ZochowskiLastFMChartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZochowskiLastFMChartsUITests.swift; sourceTree = "<group>"; };
 		D62EC002225CFA060025807A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D1A0782268E43700C26E06 /* PlaySongWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySongWebViewController.swift; sourceTree = "<group>"; };
+		D6D1A07A2268E45E00C26E06 /* ArtistProfileWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistProfileWebViewController.swift; sourceTree = "<group>"; };
+		D6D1A07C2268E5AB00C26E06 /* SimilarArtistsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarArtistsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +107,11 @@
 				D62EBFF4225CFA060025807A /* ZochowskiLastFMChartsTests */,
 				D62EBFFF225CFA060025807A /* ZochowskiLastFMChartsUITests */,
 				D62EBFDE225CFA040025807A /* Products */,
+				D61B6E6622690F7500B7DABA /* MyWWW */,
+				D61B6E5E22690F2800B7DABA /* index.html */,
+				D61B6E6122690F3500B7DABA /* main.css */,
+				D61B6E6022690F3400B7DABA /* normalize.css */,
+				D61B6E6422690F3C00B7DABA /* profile_picA.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +129,16 @@
 			isa = PBXGroup;
 			children = (
 				D62EBFE0225CFA040025807A /* AppDelegate.swift */,
-				D62EBFE2225CFA040025807A /* ViewController.swift */,
 				D62EBFE4225CFA040025807A /* Main.storyboard */,
+				D61B6E5C22690E1D00B7DABA /* AboutAuthorViewController.swift */,
+				D61B6E5A22690C1200B7DABA /* AboutAppViewController.swift */,
+				D61B6E582268F96E00B7DABA /* SimilarArtistsTableViewCell.swift */,
+				D6D1A07C2268E5AB00C26E06 /* SimilarArtistsTableViewController.swift */,
+				D6D1A07A2268E45E00C26E06 /* ArtistProfileWebViewController.swift */,
+				D6D1A0782268E43700C26E06 /* PlaySongWebViewController.swift */,
+				D608EC482267A0BE00F66E24 /* ChartDetailViewController.swift */,
+				D627A42B2261221200A52AC8 /* ChartsTableViewController.swift */,
+				D627A429226117BD00A52AC8 /* ChartTableViewCell.swift */,
 				D62EBFE7225CFA060025807A /* Assets.xcassets */,
 				D62EBFE9225CFA060025807A /* LaunchScreen.storyboard */,
 				D62EBFEC225CFA060025807A /* Info.plist */,
@@ -229,7 +268,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D61B6E6722690F7500B7DABA /* MyWWW in Resources */,
+				D61B6E6522690F3C00B7DABA /* profile_picA.jpg in Resources */,
 				D62EBFEB225CFA060025807A /* LaunchScreen.storyboard in Resources */,
+				D61B6E6222690F3500B7DABA /* normalize.css in Resources */,
+				D61B6E6322690F3500B7DABA /* main.css in Resources */,
+				D61B6E5F22690F2800B7DABA /* index.html in Resources */,
 				D62EBFE8225CFA060025807A /* Assets.xcassets in Resources */,
 				D62EBFE6225CFA040025807A /* Main.storyboard in Resources */,
 			);
@@ -256,8 +300,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D62EBFE3225CFA040025807A /* ViewController.swift in Sources */,
+				D6D1A07D2268E5AB00C26E06 /* SimilarArtistsTableViewController.swift in Sources */,
+				D627A42A226117BD00A52AC8 /* ChartTableViewCell.swift in Sources */,
+				D61B6E5B22690C1200B7DABA /* AboutAppViewController.swift in Sources */,
+				D608EC492267A0BE00F66E24 /* ChartDetailViewController.swift in Sources */,
+				D6D1A07B2268E45E00C26E06 /* ArtistProfileWebViewController.swift in Sources */,
+				D627A42C2261221200A52AC8 /* ChartsTableViewController.swift in Sources */,
 				D62EBFE1225CFA040025807A /* AppDelegate.swift in Sources */,
+				D61B6E592268F96E00B7DABA /* SimilarArtistsTableViewCell.swift in Sources */,
+				D6D1A0792268E43700C26E06 /* PlaySongWebViewController.swift in Sources */,
+				D61B6E5D22690E1D00B7DABA /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H279L7RJF9;
 				INFOPLIST_FILE = ZochowskiLastFMCharts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,7 +494,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.ZochowskiLastFMCharts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,6 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H279L7RJF9;
 				INFOPLIST_FILE = ZochowskiLastFMCharts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,7 +512,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.ZochowskiLastFMCharts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
